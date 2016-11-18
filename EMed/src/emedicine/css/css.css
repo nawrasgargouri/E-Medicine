@@ -1,0 +1,101 @@
+Label.green-color{
+    -fx-text-fill:rgb(44,124,75);
+}
+Label.marsala-color{
+    -fx-text-fill:rgb(152,63,62);
+}
+Label.message{
+    -fx-font-size:25px;
+    -fx-font-family: Farsi Simple Bold ;
+}
+.lab{
+    -fx-font:bold 12px "System";
+}
+
+TextField.marsala-color,PasswordField.marsala-color{
+  -fx-focus-color: red ;
+}
+TextField.green-color,PasswordField.green-color{
+  -fx-focus-color:  rgb(44,124,75);
+}
+
+
+Button.effect{
+    -fx-padding:4px 12px 4px 12px;
+    -fx-text-fill: white;
+    -fx-pref-width:100;
+    -fx-background-radius: 3px;
+    -fx-cursor: hand;
+}
+Button.dark-gray-color{
+    -fx-base: rgb(33,33,33);
+}
+Button.green-color{
+    -fx-base: rgb(44,124,75);
+}
+Button.blue-color{
+    -fx-base: rgb(19,80,120);
+}
+Button.marsala-color{
+    -fx-base: rgb(152,63,62);
+}
+
+
+HBox.head{
+    -fx-background-color:rgb(33,33,33);
+    -fx-pref-height:80px;
+    -fx-alignment:CENTER_LEFT;
+    -fx-padding:10px;
+}
+Label.system-name{
+    -fx-text-fill:rgb(44,124,75);
+    -fx-font-family: Farsi Simple Bold ;
+    -fx-font-size:22px;
+    -fx-font-weight:700;
+}
+Label.system-logo{
+    -fx-text-fill:white;
+    -fx-font-family: Farsi Simple Bold;
+    -fx-font-size:14px;
+    -fx-font-weight:200;
+}
+Label.system-info{
+    -fx-text-fill:black;
+    -fx-font-family: Farsi Simple Bold;
+    -fx-font-size:14px;
+    -fx-font-weight:200;
+}
+
+
+VBox.side-menu{
+    -fx-background-color:rgb(73,73,73);
+    -fx-pref-width:150px;
+}
+Label.menu-btn{
+    -fx-padding:10px 20px 10px 20px;
+    -fx-text-fill:white;
+    -fx-alignment:CENTER_LEFT;
+    -fx-pref-width:150px;
+}
+
+Label.menu-btn:hover{
+    -fx-background-color:rgba(44,124,75,0.5);
+}
+Label.menu-btn Glyph{
+    -fx-alignment:CENTER;
+    -fx-text-fill:rgb(152,63,62);
+    -fx-pref-width:35px;
+}
+
+Label.menu-btn-selected{
+    -fx-padding:10px 20px 10px 20px;
+    -fx-background-color:rgb(44,124,75);
+    -fx-text-fill:white;
+    -fx-alignment:CENTER_RIGHT;
+    -fx-pref-width:150px;
+}
+Label.menu-btn-selected Glyph{
+    -fx-alignment:CENTER;
+    -fx-text-fill:white;
+    -fx-pref-width:35px;
+}
